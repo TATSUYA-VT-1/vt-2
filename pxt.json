@@ -1,0 +1,33 @@
+{
+    "name": "VT-2プログラム",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "microphone": "*",
+        "datalogger": "*",
+        "MaqueenPlus": "github:dfrobot/pxt-dfrobot-maqueenplus#v1.5.1",
+        "pxt-rb-joypi-advanced": "github:joy-it/pxt-rb-joypi-advanced#v1.0.9",
+        "radio": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v6.0.22",
+        "tag": "v6.0.22",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/d4b2649410f09af27917a9a6d78e62e7e5fd2781",
+        "target": "6.0.25",
+        "pxt": "9.0.13",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
